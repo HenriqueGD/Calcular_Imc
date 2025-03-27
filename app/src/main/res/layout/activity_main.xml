@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digite sua Altura (m)"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/editAltura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ex: 1.75"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digite seu Peso (kg)"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/editPeso"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Digite seu peso (kg)"
+        android:padding="12dp"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular o IMC"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewPerfil"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/perfil"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitCenter" />
+
+
+</LinearLayout>
